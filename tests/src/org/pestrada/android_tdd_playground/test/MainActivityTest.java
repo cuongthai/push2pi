@@ -29,7 +29,7 @@ public class MainActivityTest extends
     button = (Button) mainActivity.findViewById(R.id.button_test);
     TouchUtils.clickView(this, button);
     TextView view = (TextView) mainActivity.findViewById(R.id.textView1);
-    assertEquals("new text 1", view.getText().toString());
+    assertEquals("new text", view.getText().toString());
   }
 
 }
