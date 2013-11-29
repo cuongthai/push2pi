@@ -14,11 +14,10 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-  /**
+
   public void changeText(View view) {
     TextView textView = (TextView) findViewById(R.id.textView1);
     textView.setText("new text");
   }
-  */
 
 }
